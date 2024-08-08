@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.app {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  min-height: 100vh; /* Zapewnia pełną wysokość ekranu */
+}
+
+.content {
+  flex-grow: 1;
+  
+  
+}
